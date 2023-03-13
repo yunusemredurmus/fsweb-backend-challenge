@@ -5,7 +5,7 @@
 Tebrikler, Backend konularını tamamladın. 
 
 Bilgisayar bilimleri konularına geçmeden önce öğrendiğin her konuyu kullanarak -daha önce react tekrarı için yaptığın- twitter clone'u projesi için REST API oluşturacaksın. Bu senin Backend konusunda ne seviyede olduğunu gösterecek. 
-Yaptığın siteyi Heroku'da da yayınlayacaksın(sanal kart girmeyi ve sanal karta limit koymamaya dikkat!!!). 
+Yaptığın siteyi Heroku'da da yayınlayacaksın(sanal kart girmeyi ve sanal karta LİMİT KOYMAmaya dikkat!!!). 
 Workintech programını tamamladığında şirketler yaptığın bu projeye de bakacaklar. O yüzden öğrendiğin her konuyu kullandığın, tam çalışır durumda bir proje yapmanı tavsiye ederiz.
 
 
@@ -13,12 +13,13 @@ Workintech programını tamamladığında şirketler yaptığın bu projeye de b
 
 ### Görev 1: Projenizin set-up'ını yapın.
 
-- [ ] `npm init -y` komutuyla package.json dosyası oluşturabilirsin.
-- [ ] `npm` i kullanarak, kullanacağın kütüphaneleri projene ekleyebilirsin. Örneğin:
+- [ ] ilk olarak github hesabınızda bir repo oluşturun ve bilgisayarınıza clone'layın.
+- [ ] `npm init -y` komutuyla package.json dosyası oluşturup kullanacağın kütüphaneleri projeye ekleyin. 
+Örneğin:
   - `express`
   - `dotenv`
   - `knex` v.b.
-- [ ] package.json dosyasında ihtiyacın olacak scriptleri yazmayı unutma.
+- [ ] package.json dosyasında ihtiyacın olacak scriptleri yazmayı unutmayın.
 - [ ] klasör yapısını anlaşılır ve anlamlı olacak şekilde hazırlayın.
 - [ ] Her adımda commit atmayı unutmayın!!
 
@@ -35,14 +36,15 @@ Workintech programını tamamladığında şirketler yaptığın bu projeye de b
 
 - [ ] Knex configuration ayarlarını yapın.
 - [ ] Farklı ortam(environment) ayarlarını yapın.
-- [ ] migration ve seed dosyalarını oluşturun.
+- [ ] Veritabanını tasarlayın.
+- [ ] Migration ve seed dosyalarını oluşturun.
 
 
 ### Görev 4: UNIT ve ENTEGRASYON TESTİ
 
 - [ ] Veritabanı erişim fonksiyonları için Unit Testleri oluşturun.
 - [ ] API endpointleri için entegrasyon testleri yazın.
-- [ ] testler için environment'ı değiştirdiğinizden ve knex'de ayrı ayarlar kullandığınızdan emin olun.
+- [ ] Testler için environment'ı değiştirdiğinizden ve knex'de ayrı ayarlar kullandığınızdan emin olun.
 
 
 #### PROJE DEĞERLENDİRME KRİTERLERİ:
